@@ -1,0 +1,20 @@
+{
+	"DEBUG" : true,
+	"VERSION" : "1.0.001 β",
+	"DATE" : "JAN 28, 2019",
+	"BOTDATA" : {
+		"token" : "488092227:AAE1lKd5DQrWoetteYmAuO7kNWEvKCxor_g",
+		"botUsername" : "shiromi_framework_bot",
+		"botId" : "488092227",
+		"botName" : "Shiromi",
+		"ownerId" : "301671941",
+		"notifyChannelId" : "-1001207101038",
+		"MediaBoxId" : "-1001329403543"
+	},
+	"DBCONFIG" : {
+		"host" : "db.s63.pw",
+		"db" : "tgbot01",
+		"password" : "bot857430",
+		"table" : "telegram"
+	}
+}
