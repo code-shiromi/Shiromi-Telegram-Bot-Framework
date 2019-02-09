@@ -2826,3 +2826,875 @@ NameError: name 'botLogger' is not defined
 [2019-02-05 15:21:00,919]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
                     [4m[8mListening ...[0m
 [2019-02-05 15:21:04,312]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 19:38:41,545]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 19:48:29,873]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 19:48:39,174]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 19:48:42,774]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 60, in getTextMsg
+    fullName = update.message.chat.first_name +' '+ update.message.chat.last_name
+TypeError: can only concatenate str (not "NoneType") to str
+[2019-02-08 19:48:56,535]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 19:49:26,993]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 19:49:29,378]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 65, in getTextMsg
+    print(fullName+'('+userId+'): '+msg)
+TypeError: can only concatenate str (not "int") to str
+[2019-02-08 19:49:33,415]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 19:50:55,840]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 19:51:22,431]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 19:54:54,033]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 19:54:56,049]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 69, in getTextMsg
+    print(fullName+'('+str(userId)+'): '+msg)
+NameError: name 'fullName' is not defined
+[2019-02-08 19:54:59,479]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 19:55:04,579]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 19:55:09,431]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 19:59:34,807]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:00:03,045]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:00:19,757]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:00:28,280]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:00:55,494]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:01:14,253]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:01:50,200]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:02:49,929]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 64, in getTextMsg
+    chatType = msg.chat.type
+AttributeError: 'NoneType' object has no attribute 'chat'
+[2019-02-08 20:02:52,797]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:03:29,202]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:03:34,380]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:11:33,662]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:11:36,768]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 68, in getTextMsg
+    text = msg.text
+AttributeError: 'NoneType' object has no attribute 'text'
+[2019-02-08 20:12:04,275]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:12:11,481]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:12:13,520]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 69, in getTextMsg
+    if chatType == 'private':
+UnboundLocalError: local variable 'chatType' referenced before assignment
+[2019-02-08 20:12:18,226]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:16:34,057]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:16:36,128]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 81, in getTextMsg
+    username = msg.from_user.username
+AttributeError: 'NoneType' object has no attribute 'username'
+[2019-02-08 20:16:59,185]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:18:16,520]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:18:19,020]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 81, in getTextMsg
+    username = msg.from_user.username
+AttributeError: 'NoneType' object has no attribute 'username'
+[2019-02-08 20:19:02,066]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:21:00,717]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:21:07,461]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 81, in getTextMsg
+    username = msg.from_user.username
+AttributeError: 'NoneType' object has no attribute 'username'
+[2019-02-08 20:21:09,473]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:21:44,354]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:21:46,363]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 82, in getTextMsg
+    username = msg.from_user.username
+AttributeError: 'NoneType' object has no attribute 'username'
+[2019-02-08 20:22:07,541]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:22:09,824]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:22:18,223]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:22:28,751]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:22:34,576]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:23:39,380]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:23:41,543]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 81, in getTextMsg
+    username = msg.from_user.username
+AttributeError: 'NoneType' object has no attribute 'username'
+[2019-02-08 20:23:49,184]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:24:34,441]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:24:36,578]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 81, in getTextMsg
+    username = msg.from_user.username
+AttributeError: 'NoneType' object has no attribute 'username'
+[2019-02-08 20:24:40,481]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:24:53,894]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:24:57,030]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 81, in getTextMsg
+    username = msg.from_user.username
+AttributeError: 'NoneType' object has no attribute 'username'
+[2019-02-08 20:24:59,977]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:25:54,238]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:25:56,275]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 81, in getTextMsg
+    username = msg.from_user.username
+AttributeError: 'NoneType' object has no attribute 'username'
+[2019-02-08 20:26:25,009]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:27:06,829]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:27:08,837]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 82, in getTextMsg
+    username = msg.from_user.username
+AttributeError: 'NoneType' object has no attribute 'username'
+[2019-02-08 20:27:13,879]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:27:39,017]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:27:41,307]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 82, in getTextMsg
+    username = msg.from_user.username
+AttributeError: 'NoneType' object has no attribute 'username'
+[2019-02-08 20:27:43,391]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:29:41,363]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:29:44,188]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 85, in getTextMsg
+    username = msg.from_user.username
+AttributeError: 'NoneType' object has no attribute 'username'
+[2019-02-08 20:29:45,552]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:30:29,762]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:30:52,223]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:31:04,389]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:31:11,198]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:31:11,424]telegram.ext.updater - WARNING - Exiting immediately!
+[2019-02-08 20:31:43,703]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:31:54,513]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 86, in getTextMsg
+    username = msg.from_user.username
+AttributeError: 'NoneType' object has no attribute 'username'
+[2019-02-08 20:31:56,767]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:32:36,747]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:34:13,942]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:35:07,670]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:35:16,213]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 76, in getTextMsg
+    msg, chatType, text = getCt(update)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 65, in getCt
+    elif updat.message is None:
+NameError: name 'updat' is not defined
+[2019-02-08 20:35:25,389]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:35:53,601]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:58:53,419]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 20:59:00,173]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 20:59:25,426]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 21:14:12,904]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 21:14:32,056]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 21:15:13,173]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 21:15:15,640]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 103, in textMsg
+    content = senderFunc(bot, update, 'text')
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 81, in senderFunc
+    msg, chatType = getCt(update)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 63, in getCt
+    return msg, chatType, text
+NameError: name 'text' is not defined
+[2019-02-08 21:15:23,306]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 21:15:44,565]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 21:16:00,068]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 107, in photoMsg
+    content = senderFunc(bot, update, 'photo')
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 82, in senderFunc
+    content = getCon(msg, con)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 69, in getCon
+    content = msg.photo.file_id
+AttributeError: 'list' object has no attribute 'file_id'
+[2019-02-08 21:16:05,685]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 21:16:18,443]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 21:16:25,105]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 107, in photoMsg
+    content = senderFunc(bot, update, 'photo')
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 98, in senderFunc
+    print('[' + chatType + ']' + title + '(' + str(chatId) + ') - ' + fullname + '(' + str(userId) + '): ' + content)
+TypeError: can only concatenate str (not "list") to str
+[2019-02-08 21:16:43,956]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 21:27:23,075]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 21:28:50,570]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 21:29:02,062]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 21:29:56,147]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 21:38:44,357]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 21:39:11,883]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 21:40:30,349]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 154, in locationMsg
+    content = senderFunc(bot, update, 'location')
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 114, in senderFunc
+    print('[' + chatType + ']' + fullname + '(' + str(userId) + '): ' + content)
+TypeError: can only concatenate str (not "tuple") to str
+[2019-02-08 21:40:43,602]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 154, in locationMsg
+    content = senderFunc(bot, update, 'location')
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 114, in senderFunc
+    print('[' + chatType + ']' + fullname + '(' + str(userId) + '): ' + content)
+TypeError: can only concatenate str (not "tuple") to str
+[2019-02-08 21:41:55,143]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 21:53:21,216]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 21:53:26,848]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 154, in locationMsg
+    content = senderFunc(bot, update, 'location')
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 121, in senderFunc
+    print('[' + chatType + ']' + title + '(' + str(chatId) + ') - ' + fullname + '(' + str(userId) + '): ' + content)
+TypeError: can only concatenate str (not "tuple") to str
+[2019-02-08 21:53:34,921]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 21:53:44,946]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 21:53:49,506]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 154, in locationMsg
+    content = senderFunc(bot, update, 'location')
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 121, in senderFunc
+    print('[' + chatType + ']' + title + '(' + str(chatId) + ') - ' + fullname + '(' + str(userId) + '): ' + content)
+TypeError: can only concatenate str (not "tuple") to str
+[2019-02-08 23:18:24,848]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 23:18:30,012]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 23:18:41,044]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 154, in locationMsg
+    content = senderFunc(bot, update, 'location')
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 105, in senderFunc
+    content = getCon(msg, con)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 92, in getCon
+    content = 'https://www.google.com/maps/search/?api=1&query=' + msg['location']['latitude'] + ',' + msg['location']['longitude']
+TypeError: can only concatenate str (not "float") to str
+[2019-02-08 23:18:47,507]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 23:18:51,348]telegram.ext.updater - WARNING - Exiting immediately!
+[2019-02-08 23:21:17,225]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 23:21:57,690]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 23:27:03,504]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 23:27:58,496]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 23:47:05,993]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 23:47:22,979]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 23:48:04,558]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 23:48:09,140]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 23:48:30,802]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 23:49:30,788]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 23:49:39,888]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 23:49:41,826]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 133, in textMsg
+    content = senderFunc(bot, update, 'text')
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 120, in senderFunc
+    log.msgLog('[' + chatType + ']' + fullname + '(' + str(userId) + '):', con, content)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/log.py", line 8, in msgLog
+    chatLogger.info(({fm} + {msgType} + content).format(fm=fm,msgType=msgType))
+TypeError: unsupported operand type(s) for +: 'set' and 'set'
+[2019-02-08 23:49:43,491]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 23:50:06,577]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 23:50:15,754]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 23:51:56,394]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 23:53:55,618]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 23:54:08,444]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 23:54:14,763]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 23:54:28,692]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 23:55:03,162]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 23:55:37,750]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 23:55:43,156]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 23:58:58,308]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 23:59:01,548]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 134, in textMsg
+    content = senderFunc(bot, update, colored('text', 'red'))
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 110, in senderFunc
+    content = getCon(msg, con)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 98, in getCon
+    return content
+UnboundLocalError: local variable 'content' referenced before assignment
+[2019-02-08 23:59:13,476]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-08 23:59:27,372]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-08 23:59:31,282]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:04:06,268]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:04:22,936]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:04:36,130]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:04:43,276]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:06:38,947]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:06:42,036]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 134, in textMsg
+    content = senderFunc(bot, update, 'text')
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 121, in senderFunc
+    log.msgLog('[' + chatType + ']' + fullname + '(' + str(userId) + '):', con, content)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/log.py", line 10, in msgLog
+    cmt = colored('(' + msgType, 'grey' + ')')
+  File "/usr/local/lib/python3.7/site-packages/termcolor.py", line 105, in colored
+    text = fmt_str % (COLORS[color], text)
+KeyError: 'grey)'
+[2019-02-09 00:07:25,223]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:07:27,624]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:07:29,454]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 134, in textMsg
+    content = senderFunc(bot, update, 'text')
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 121, in senderFunc
+    log.msgLog('[' + chatType + ']' + fullname + '(' + str(userId) + '):', con, content)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/log.py", line 10, in msgLog
+    cmt = colored('(', msgType,'grey', ')')
+  File "/usr/local/lib/python3.7/site-packages/termcolor.py", line 105, in colored
+    text = fmt_str % (COLORS[color], text)
+KeyError: 'text'
+[2019-02-09 00:07:31,600]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:07:57,728]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:07:59,771]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 134, in textMsg
+    content = senderFunc(bot, update, 'text')
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 121, in senderFunc
+    log.msgLog('[' + chatType + ']' + fullname + '(' + str(userId) + '):', con, content)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/log.py", line 10, in msgLog
+    cmt = colored('(', msgType, ')','grey')
+  File "/usr/local/lib/python3.7/site-packages/termcolor.py", line 105, in colored
+    text = fmt_str % (COLORS[color], text)
+KeyError: 'text'
+[2019-02-09 00:08:00,791]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:08:14,132]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:08:19,151]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:10:00,161]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:10:08,839]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:10:46,878]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:11:39,151]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:11:44,564]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:12:37,390]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:14:05,038]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:14:14,068]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:14:57,569]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:15:10,222]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:15:24,967]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:15:38,005]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:16:25,225]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:16:35,541]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:17:07,574]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:17:18,180]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:22:35,291]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:26:12,022]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:26:18,577]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:26:35,403]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:29:16,185]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:29:40,522]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:30:16,233]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:30:35,927]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:30:45,584]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:31:03,586]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:32:47,363]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:32:55,942]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:36:48,921]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:37:20,889]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:37:27,107]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:37:50,761]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:37:53,683]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:39:52,000]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:40:27,518]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:40:59,999]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:41:38,667]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 00:42:38,773]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 147, in videoMsg
+    content = senderFunc(bot, update, 'video')
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 114, in senderFunc
+    content = getCon(msg, con)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 86, in getCon
+    content = msg['voice']['file_id']
+TypeError: 'NoneType' object is not subscriptable
+[2019-02-09 00:42:50,968]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 00:42:56,530]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 03:16:30,984]telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot488092227:AAE1lKd5DQrWoetteYmAuO7kNWEvKCxor_g/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7f85e143c358>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2019-02-09 10:44:29,532]BOT - WARNING - Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot488092227:AAE1lKd5DQrWoetteYmAuO7kNWEvKCxor_g/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7f85e143c358>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))"
+[2019-02-09 10:46:15,792]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 10:46:24,644]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 10:48:05,312]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 10:50:19,479]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 10:50:25,976]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 11, in query
+    bot_sendmessage(update.message)
+NameError: name 'bot_sendmessage' is not defined
+[2019-02-09 10:50:28,550]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 10:50:36,621]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 10:50:40,724]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 11, in query
+    bot.send_message(update.message)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/bot.py", line 76, in decorator
+    url, data = func(self, *args, **kwargs)
+TypeError: send_message() missing 1 required positional argument: 'text'
+[2019-02-09 10:50:47,004]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 10:51:04,096]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 10:51:07,014]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 11, in query
+    update.message.reply_text(update.message)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/message.py", line 457, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/bot.py", line 90, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/utils/request.py", line 325, in post
+    body=json.dumps(data).encode('utf-8'),
+  File "/usr/local/lib/python3.7/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Message is not JSON serializable
+[2019-02-09 10:51:13,276]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 10:51:35,885]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 10:51:38,868]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 11, in query
+    update.message.reply_text(update['message'])
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/message.py", line 457, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/bot.py", line 90, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/utils/request.py", line 325, in post
+    body=json.dumps(data).encode('utf-8'),
+  File "/usr/local/lib/python3.7/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Message is not JSON serializable
+[2019-02-09 10:51:41,269]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 10:53:55,181]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 10:54:04,647]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 12, in query
+    update.message.reply_text(pprint.update['message'])
+AttributeError: module 'pprint' has no attribute 'update'
+[2019-02-09 10:54:13,542]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 10:54:31,295]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 10:54:39,234]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 10:54:46,176]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 10:54:53,105]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 10:55:05,383]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 10:55:16,077]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 10:57:04,419]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 11:10:14,040]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 11:11:02,101]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 11:11:07,655]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 11:13:18,500]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 11:13:26,623]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 11:14:27,492]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 11:14:35,054]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 11:17:26,174]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 11:20:31,278]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 11:20:36,052]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 11:20:39,560]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 12, in query
+    query = pretty(update)
+NameError: name 'pretty' is not defined
+[2019-02-09 11:20:41,405]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 11:21:24,400]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 11:22:11,213]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 11:23:17,074]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 11:23:20,379]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
+    tree = parser_driver.parse_string(code, debug=False)
+  File "/usr/local/lib/python3.7/lib2to3/pgen2/driver.py", line 104, in parse_string
+    return self.parse_tokens(tokens, debug)
+  File "/usr/local/lib/python3.7/lib2to3/pgen2/driver.py", line 72, in parse_tokens
+    if p.addtoken(type, value, (prefix, start)):
+  File "/usr/local/lib/python3.7/lib2to3/pgen2/parse.py", line 159, in addtoken
+    raise ParseError("bad input", type, value, context)
+lib2to3.pgen2.parse.ParseError: bad input: type=20, value='<', context=('', (1, 0))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/yapf/yapflib/pytree_utils.py", line 121, in ParseCodeToTree
+    tree = parser_driver.parse_string(code, debug=False)
+  File "/usr/local/lib/python3.7/lib2to3/pgen2/driver.py", line 104, in parse_string
+    return self.parse_tokens(tokens, debug)
+  File "/usr/local/lib/python3.7/lib2to3/pgen2/driver.py", line 72, in parse_tokens
+    if p.addtoken(type, value, (prefix, start)):
+  File "/usr/local/lib/python3.7/lib2to3/pgen2/parse.py", line 159, in addtoken
+    raise ParseError("bad input", type, value, context)
+lib2to3.pgen2.parse.ParseError: bad input: type=20, value='<', context=('', (1, 0))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 14, in query
+    queryMsg, _ = FormatCode(query)
+  File "/usr/local/lib/python3.7/site-packages/yapf/yapflib/yapf_api.py", line 129, in FormatCode
+    tree = pytree_utils.ParseCodeToTree(unformatted_source)
+  File "/usr/local/lib/python3.7/site-packages/yapf/yapflib/pytree_utils.py", line 127, in ParseCodeToTree
+    raise e
+  File "/usr/local/lib/python3.7/site-packages/yapf/yapflib/pytree_utils.py", line 125, in ParseCodeToTree
+    ast.parse(code)
+  File "/usr/local/lib/python3.7/ast.py", line 35, in parse
+    return compile(source, filename, mode, PyCF_ONLY_AST)
+  File "<unknown>", line 1
+    <telegram.update.Update object at 0x7f3263e31b38>
+    ^
+SyntaxError: invalid syntax
+[2019-02-09 11:23:22,095]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 11:24:05,020]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 11:24:20,461]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 11:24:30,928]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 11:24:38,566]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 11:25:10,234]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 11:25:13,107]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 12, in query
+    query = pformat(dict(update.message))
+TypeError: cannot convert dictionary update sequence element #0 to a sequence
+[2019-02-09 11:25:14,956]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 11:26:22,348]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 11:30:37,924]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 11:32:55,559]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 11:34:10,602]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 11:36:52,781]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 11:37:07,281]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 11:38:08,881]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 11:38:11,598]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 144, in textMsg
+    content = senderFunc(bot, update, 'text')
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 138, in senderFunc
+    ccType = colored('[' + chatType + '] ', 'on_red') + colored(title + '(' + str(chatId) + ')', 'green', attrs=['underline']) + ' - ' + colored(fullname + '(' + str(userId) + '):', 'yellow', attrs=['underline'])
+  File "/usr/local/lib/python3.7/site-packages/termcolor.py", line 105, in colored
+    text = fmt_str % (COLORS[color], text)
+KeyError: 'on_red'
+[2019-02-09 11:38:13,634]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 11:39:27,658]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 11:39:29,740]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 144, in textMsg
+    content = senderFunc(bot, update, 'text')
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 138, in senderFunc
+    ccType = colored('[' + chatType + '] ', attrs=['on_red']) + colored(title + '(' + str(chatId) + ')', 'green', attrs=['underline']) + ' - ' + colored(fullname + '(' + str(userId) + '):', 'yellow', attrs=['underline'])
+  File "/usr/local/lib/python3.7/site-packages/termcolor.py", line 112, in colored
+    text = fmt_str % (ATTRIBUTES[attr], text)
+KeyError: 'on_red'
+[2019-02-09 11:39:34,362]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 11:41:45,527]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 11:42:29,700]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 11:42:39,123]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 11:42:51,827]telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/dispatcher.py", line 301, in process_update
+    handler.handle_update(update, self)
+  File "/usr/local/lib/python3.7/site-packages/python_telegram_bot-11.1.0-py3.7.egg/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 144, in textMsg
+    content = senderFunc(bot, update, 'text')
+  File "/mnt/c/Users/Shiromi K. Y. Carver/Documents/Devio/telegram-bot/shiroFrame/python-1.0/functions/botFunc.py", line 130, in senderFunc
+    ccType = colored('[' + chatType + ']', 'gray', 'on_white') + colored(fullname + '(' + str(userId) + '):', 'yellow', attrs=['underline'])
+  File "/usr/local/lib/python3.7/site-packages/termcolor.py", line 105, in colored
+    text = fmt_str % (COLORS[color], text)
+KeyError: 'gray'
+[2019-02-09 11:42:54,937]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+[2019-02-09 11:43:06,338]BOT - INFO - [32m[0m[4m[8mDEBUG MODE:[0m  [7m[31m ON [0m
+                    [4m[8mListening ...[0m
+[2019-02-09 14:15:55,648]telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...

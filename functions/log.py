@@ -3,6 +3,22 @@
 import logging, colorlog
 from termcolor import colored
 
+# Chat Log
+def msgLog(fm, msgType, content):
+    # Colored msg
+    if msgType == 'text':
+        cmt = colored('(' + msgType + ')', 'white', attrs=['underline']) + ' '
+    elif msgType == 'sticker':
+        cmt = colored('(' + msgType + ')', 'red', attrs=['underline']) + ' '
+    elif msgType == 'location':
+        cmt = colored('(' + msgType + ')', 'green', attrs=['underline']) + ' '
+    elif msgType == 'voice' or msgType == 'audio':
+        cmt = colored('(' + msgType + ')', 'magenta', attrs=['underline']) + ' '
+    else:
+        cmt = colored('(' + msgType + ')', 'cyan', attrs=['underline']) + ' '
+
+    chatLogger.info(fm + enter + cmt + colored(content, 'white'))
+
 # Error log
 def error(bot, update, error):
     """Log Errors caused by Updates."""
@@ -17,13 +33,14 @@ def logActive(DEBUG):
     # Loggers init
     botLogger = logging.getLogger('BOT')
     apiLogger = logging.getLogger('telegram.ext')
-    chatLogger = logging.getLogger('CHAT')
+    chatLogger = logging.getLogger('[CHAT]')
 
     # Set Format
     runTime = '%(bg_white)s%(asctime)s%(reset)s '
     lvName = '%(log_color)s[%(levelname)s]%(reset)s '
-    logName = '%(cyan)s%(name)s%(reset)s\n                    '
+    logName = '%(cyan)s%(name)s%(reset)s' + enter
     logMsg = '%(white)s%(message)s'
+    fmName = '%(thin_yellow)s%(name)s%(reset)s '
     sysfmt = colorlog.ColoredFormatter(runTime + lvName + logName + logMsg,
                                         datefmt="%Y-%m-%d %H:%M:%S",
                                         reset=True,
@@ -37,10 +54,19 @@ def logActive(DEBUG):
                                         secondary_log_colors={},
                                         style='%'
                                         )
+    logMsg = '%(white)s%(message)s'
+    chatfmt = colorlog.ColoredFormatter(runTime + fmName + logMsg,
+                                        datefmt="%Y-%m-%d %H:%M:%S",
+                                        reset=True,
+                                        secondary_log_colors={},
+                                        style='%'
+                                        )
 
     # Set handler
     console = logging.StreamHandler()
     console.setFormatter(sysfmt)
+    chatConsole = logging.StreamHandler()
+    chatConsole.setFormatter(chatfmt)
     # Logger Level
     # Check Debug mode is on
     if DEBUG == True:
@@ -54,18 +80,21 @@ def logActive(DEBUG):
         apiLogger.setLevel(logging.INFO)
         debugStatus = colored(' OFF ', 'white', attrs=['reverse'])
     botLogger.setLevel(logging.INFO)
+    chatLogger.setLevel(logging.INFO)
 
     # Handler
     apiLogger.addHandler(console)
     apiLogger.addHandler(file)
     botLogger.addHandler(console)
     botLogger.addHandler(file)
+    chatLogger.addHandler(chatConsole)
 
     botLogger.info(colored('', 'green') + 
                     colored('DEBUG MODE:',
                             attrs=['concealed', 'underline']
                             ) + '  ' + debugStatus + 
-                    '\n                    ' +
+                    enter +
                     colored('Listening ...',
                             attrs=['concealed', 'underline']
                             ))
+enter = '\n                    '
